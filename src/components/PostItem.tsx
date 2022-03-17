@@ -30,8 +30,10 @@ const PostItem: FC<PostItemProps> = ({post, remove, edit}) => {
 
         }}>
             <div>id -- {post.id} title -- {post.title}</div>
-            <button onClick={handleRemove}>Delete</button>
-            <button onClick={editHandler}>Edit</button>
+            <div>
+                <button onClick={editHandler}>Edit</button>
+                <button onClick={handleRemove}>Delete</button>
+            </div>
         </div>
     );
 };
