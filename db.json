@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "asdasdasd",
+      "body": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server 2",
+      "body": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "",
+      "body": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "",
+      "body": "typicode"
+    },
+    {
+      "title": "aaaa",
+      "body": "aaaa",
+      "id": 7
+    },
+    {
+      "title": "hracho",
+      "body": "hracho",
+      "id": 8
+    },
+    {
+      "title": "asdasd",
+      "body": "asdasd",
+      "id": 9
+    },
+    {
+      "title": "asdasd",
+      "body": "asdasd",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
