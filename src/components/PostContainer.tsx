@@ -13,8 +13,8 @@ const PostContainer: FC = () => {
         // }
     )
     const [createPost, {isLoading: createIsLoading, error: createError}] = postApi.useCreatePostMutation()
-    const [editPost, {}] = postApi.useEditPostMutation()
-    const [deletePost, {}] = postApi.useDeletePostMutation()
+    const [editPost, {isLoading: editIsLoading, error: editError}] = postApi.useEditPostMutation()
+    const [deletePost, {isLoading: deleteIsLoading, error: deleteError}] = postApi.useDeletePostMutation()
     const handleCreatePost = async () => {
         const title = prompt("ADD")
         await createPost({title, body: title} as IPost)
@@ -43,6 +43,15 @@ const PostContainer: FC = () => {
                 {createIsLoading && <h1>create Post<br/>Loading...</h1>}
 
                 {createError && <h1>create Post<br/>ERROR</h1>}
+
+
+                {editIsLoading && <h1>edit Post<br/>Loading...</h1>}
+
+                {editError && <h1>edit Post<br/>ERROR</h1>}
+
+                {deleteIsLoading && <h1>delete Post<br/>Loading...</h1>}
+
+                {deleteError && <h1>delete Post<br/>ERROR</h1>}
 
                 {posts && posts.map(post =>
                     <PostItem remove={hamdleRemove} edit={handleEdit}
