@@ -1,98 +1,32 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "asdasdasd",
-      "body": "typicode"
+      "title": "01001",
+      "body": "123",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "json-server 2",
-      "body": "typicode"
+      "title": "02002",
+      "body": "asdasd",
+      "id": 2
     },
     {
-      "id": 4,
-      "title": "aaaaa",
-      "body": "typicode"
+      "title": "03003",
+      "body": "asdasd",
+      "id": 3
     },
     {
-      "title": "aaaa",
+      "title": "04004",
+      "body": "asdasd",
+      "id": 4
+    },
+    {
+      "title": "05005",
       "body": "aaaa",
-      "id": 7
-    },
-    {
-      "title": "aaaaa",
-      "body": "hracho",
-      "id": 8
-    },
-    {
-      "title": "asdasd",
-      "body": "asdasd",
-      "id": 10
-    },
-    {
-      "title": "asdasd",
-      "body": "asdasd",
-      "id": 11
-    },
-    {
-      "title": "asdasd",
-      "body": "asdasd",
-      "id": 12
-    },
-    {
-      "title": "aaaaa",
-      "body": "aaaaa",
-      "id": 13
-    },
-    {
-      "title": "asdasd",
-      "body": "asdasd",
-      "id": 14
-    },
-    {
-      "title": "asdasdasd",
-      "body": "asdasdasd",
-      "id": 15
-    },
-    {
-      "title": "asdasdasdasd",
-      "body": "asdasdasdasd",
-      "id": 16
-    },
-    {
-      "title": "asdasdasdasd",
-      "body": "asdasdasdasd",
-      "id": 17
-    },
-    {
-      "title": "asdasdasdasd",
-      "body": "asdasdasdasd",
-      "id": 18
-    },
-    {
-      "title": "asdcasdasdasd",
-      "body": "asdcasdasdasd",
-      "id": 19
-    },
-    {
-      "title": "asdasdasdasd",
-      "body": "asdasdasdasd",
-      "id": 20
-    },
-    {
-      "title": "aaawww",
-      "body": "aaawww",
-      "id": 21
+      "id": 5
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
